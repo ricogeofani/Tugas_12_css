@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-image: linear-gradient(to right, rgb(162, 182, 236), rgb(139, 203, 255),rgb(162, 244, 255));
+    box-shadow: 5px 5px 3px rgb(207, 200, 200);
+}
+
+header {
+    background-color: black;
+    height: 50px;
+}
+
+header ul li {
+    float: left;
+    display: inline;
+    padding: 15px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.slider-img {
+    width: 98%;
+    margin: 1% 1% 1% 1%;
+}
+
+.image {
+    width: 15%;
+    height: 250px;
+    margin: 0 1% 0 2%;
+    float: left;
+}
+
+.p-text {
+    column-count: 4;
+    text-align: justify;
+    column-fill: balance;
+    column-rule: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.footer {
+    background-color: black;
+    height: 50px;
+}
+
+.footer h2 {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
